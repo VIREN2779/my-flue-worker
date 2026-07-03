@@ -1,0 +1,30 @@
+{
+  "name": "my-flue-worker",
+  "version": "1.0.0",
+  "description": "Build and deploy Flue agents on Cloudflare Workers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VIREN2779/my-flue-worker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VIREN2779/my-flue-worker/issues"
+  },
+  "homepage": "https://github.com/VIREN2779/my-flue-worker#readme",
+  "dependencies": {
+    "@flue/runtime": "^1.0.0-beta.9",
+    "agents": "^0.14.5",
+    "valibot": "^1.4.2"
+  },
+  "devDependencies": {
+    "@flue/cli": "^1.0.0-beta.9",
+    "wrangler": "^4.107.0"
+  }
+}
